@@ -1,5 +1,5 @@
 
-package models;
+package lesson1.models;
 
 public class  Human {
     private String name;

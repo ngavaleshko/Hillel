@@ -1,7 +1,7 @@
 
-package services;
+package lesson1.services;
 
-import models.Human;
+import lesson1.models.Human;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

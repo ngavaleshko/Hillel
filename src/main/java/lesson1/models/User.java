@@ -1,6 +1,4 @@
-package models;
-
-import models.Human;
+package lesson1.models;
 
 public class User extends Human {
     public User(String name, String surname, int age, String email, String password) {

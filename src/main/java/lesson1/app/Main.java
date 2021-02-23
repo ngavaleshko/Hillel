@@ -1,9 +1,9 @@
-package app;
+package lesson1.app;
 
-import models.Admin;
-import models.User;
-import services.AdminService;
-import services.UserService;
+import lesson1.models.Admin;
+import lesson1.models.User;
+import lesson1.services.AdminServices;
+import lesson1.services.UserService;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Main {
         userService.checkUserData(user);
         userService.checkUserData(user2);
 
-        AdminService adminService = new AdminService();
+        AdminServices adminService = new AdminServices();
 
         adminService.writeUserData(user);
         adminService.writeUserData(admin);
